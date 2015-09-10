@@ -2,7 +2,7 @@ import vlinder.logic
 
 sub if[T: *](condition: logic.Boolean, deferred consequent: T, deferred alternate: T): T {
     match condition {
-      case true => consequent
-      case false => alternate
+        case true => consequent
+        case false => alternate
     }
 }
